@@ -1,3 +1,5 @@
+package lab2;
+
 public class Student {
     Integer numarMatricol;
     String prenume;
@@ -13,7 +15,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" + "numarMatricol=" + numarMatricol + ", prenume='" + prenume + '\'' +
+        return "lab2.Student{" + "numarMatricol=" + numarMatricol + ", prenume='" + prenume + '\'' +
                 ", nume='" + nume + '\'' + ", formatieDeStudiu='" + formatieDeStudiu + '\'' + '}';
     }
 }
