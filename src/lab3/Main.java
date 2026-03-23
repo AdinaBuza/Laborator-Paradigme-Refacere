@@ -8,7 +8,9 @@ public class Main {
     public static void main(String[] args) {
         ProcesareText procesor = new ProcesareText();
 
-        try {
+
+        try{
+
             List<String> liniiInitiale = procesor.citesteLinii("in.txt");
 
             List<String> rezultatA = procesor.adaugaRandExtra(liniiInitiale);

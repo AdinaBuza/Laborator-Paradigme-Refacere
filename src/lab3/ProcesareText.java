@@ -18,6 +18,7 @@ public class ProcesareText {
         for (String linie : linii) {
             rezultat.add(linie + "\n");
         }
+
         return rezultat;
     }
 
@@ -26,6 +27,7 @@ public class ProcesareText {
         for (String linie : linii) {
             rezultat.add(linie.replace(".", ".\n"));
         }
+
         return rezultat;
     }
 
