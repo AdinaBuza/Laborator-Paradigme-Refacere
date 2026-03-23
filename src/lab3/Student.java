@@ -1,7 +1,5 @@
 package lab3;
 
-import java.util.Objects;
-
 public class Student {
     Integer numarMatricol;
     String prenume;
@@ -15,9 +13,12 @@ public class Student {
         this.formatieDeStudiu = formatieDeStudiu;
     }
 
-    // Getter pentru nume (necesar pentru sortare)
     public String getNume() {
         return nume;
+    }
+
+    public String getFormatieDeStudiu() {
+        return formatieDeStudiu;
     }
 
     @Override
