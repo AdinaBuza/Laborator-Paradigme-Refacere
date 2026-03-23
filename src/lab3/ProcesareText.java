@@ -19,6 +19,7 @@ public class ProcesareText {
             rezultat.add(linie + "\n");
         }
 
+
         return rezultat;
     }
 
